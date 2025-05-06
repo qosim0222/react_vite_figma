@@ -3,9 +3,9 @@ import React from 'react'
 const Header = () => {
 
   return (
-    <header>
+    <header className='absolute w-full '>
       <div className="container mx-auto ">
-        <nav className='h-[74px]  flex items-center justify-between gap'>
+        <nav className='h-[74px]  flex items-center justify-between text-white'>
           <div>Escape</div>
           <ul className='flex gap-10 uppercase'>
             <li>
